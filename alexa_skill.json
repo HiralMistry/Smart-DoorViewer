@@ -1,0 +1,42 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my door",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CheckDoor",
+                    "slots": [],
+                    "samples": [
+                        "tell me who is at the door",
+                        "tell me who's there",
+                        "check who's there",
+                        "check who is there",
+                        "check who's at the door",
+                        "check who is at the door"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
